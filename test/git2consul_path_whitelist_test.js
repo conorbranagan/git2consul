@@ -16,7 +16,7 @@ var git_utils = require('./utils/git_utils.js');
 
 var git_commands = require('../lib/git/commands.js');
 
-describe.only('path_whitelist', function() {
+describe('path_whitelist', function() {
 
   // Set up common configuration fixture.
   var repo_config;
