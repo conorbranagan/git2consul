@@ -1,3 +1,16 @@
+## Datadog modifications
+
+v0.13.3
+* Increase maxBuffer size that crashes the program when doing large KVS updates.
+
+v0.13.2
+* Patch initial `path_whitelist` implementation to fix edge cases.
+
+v0.13.1
+* Add `path_whitelist` option to repos that allows only loading in the KVS values matching a certain path.
+
+## Upstream
+
 v0.12.14 (UNRELEASED)
 * Use --config-key as the option flag. --config_key still exists for backwards compatibility [GH-141]
 * Only ignore embedded JSON/YAML/properties file extensions [GH-123]
